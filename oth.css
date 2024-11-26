@@ -1,0 +1,135 @@
+
+header {
+ 
+  padding: 10px 10px;
+  display: flex;
+  
+}
+
+nav {
+  display: flex;
+  gap: 25px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #333;          
+  padding: 10px 15px;    
+  transition: color 0.3s, text-decoration 0.3s; 
+  
+  
+}
+
+
+nav a:hover {
+  color: #b571d0;        
+  text-decoration: underline; 
+}
+
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+  color: #221f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  display: flex;
+  max-width: 900px;
+  margin: 5px;
+}
+
+
+.recipe-container {
+  flex: 2;
+  margin-right: 40px;
+}
+
+.recipe-container h1, .recipe-container h2 {
+  color: #650808;
+}
+
+.recipe-info {
+  font-size: 0.9em;
+  color: #a22e2e;
+}
+
+.recipe-image {
+  width: 78%;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+
+.subscribe-container {
+  position: fixed; 
+  bottom: 10px; 
+  right: 0px; 
+  width: 250px; 
+  padding: 25px;
+  background-color: #f1e6e6;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+
+
+
+.subscribe-container h3 {
+  margin-bottom: 20px;
+  color: #383232;
+}
+
+.subscribe-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #c0a2a2;
+}
+
+.subscribe-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #b571d0;
+  color: #383232;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-container button:hover {
+  background-color: #8e38c0;
+}
+
+
+footer {
+  width: 15%;
+  padding: 15px;
+  background-color: #b571d0;
+  color: #fdfdfd;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
